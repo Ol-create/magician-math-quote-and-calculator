@@ -1,4 +1,4 @@
-class DisplayComponent extends React.Component{
+class Display extends React.Component{
 	constructor(){
 		super();
 	}
@@ -9,4 +9,4 @@ class DisplayComponent extends React.Component{
 	}
 }
 
-export default DisplayComponent;
+export default Display;

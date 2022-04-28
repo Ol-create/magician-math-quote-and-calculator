@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 
 //Create digit input component
-class DigitInput extends React.Component{
+class Digit extends React.Component{
 	constructor(props){
 		super(props);
 	}
@@ -25,3 +25,5 @@ class DigitInput extends React.Component{
 		</div>);
 	}
 }
+
+export default Digit;
