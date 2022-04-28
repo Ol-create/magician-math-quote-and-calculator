@@ -5,9 +5,9 @@ class SpecialFunction extends React.Component{
 	render(){
 		return(
 			<div className="special-function">
-			<p>AC</p>
-			<p>+/-</p>
-			<p>%</p>
+			<p className="operation">AC</p>
+			<p className="operation">+/-</p>
+			<p className="operation">%</p>
 			</div>
 		)
 	}

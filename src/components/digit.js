@@ -8,14 +8,17 @@ class Digit extends React.Component{
 		super(props);
 	}
 	render(){
-		return (<div id='digit-input'>
-			<div className='digits'><p className='digit'>7</p>
+		return (<div id='digit-container'>
+			<div className='digits'>
+			<p className='digit'>7</p>
 			<p className='digit'>8</p>
 			<p className='digit'>9</p></div>
-			<div className='digits'><p className='digit'>4</p>
+			<div className='digits'>
+			<p className='digit'>4</p>
 			<p className='digit'>5</p>
 			<p className='digit'>6</p></div>
-			<div className='digits'><p className='digit'>1</p>
+			<div className='digits'>
+			<p className='digit'>1</p>
 			<p className='digit'>2</p>
 			<p className='digit'>3</p></div>
 			<div class='zero-and-point'>

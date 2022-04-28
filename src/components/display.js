@@ -4,7 +4,7 @@ class Display extends React.Component{
 	}
 	render(){
 		return(
-			<div className="display"><p>0</p></div>
+			<div className="display-container"><p className='display'>0</p></div>
 		)
 	}
 }
