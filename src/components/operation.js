@@ -1,10 +1,11 @@
+import React from 'react';
 class Operation extends React.Component{
 	constructor(){
 		super();
 	}
 	render(){
 		return(
-			<div className="operation-container">
+			<div className="operationContainer">
 			<p className='operation'>/</p>
 			<p className='operation'>x</p>
 			<p className='operation'>-</p>

@@ -1,13 +1,14 @@
+import React from 'react';
 class SpecialFunction extends React.Component{
 	constructor(){
 		super();
 	}
 	render(){
 		return(
-			<div className="special-function">
-			<p className="operation">AC</p>
-			<p className="operation">+/-</p>
-			<p className="operation">%</p>
+			<div id="specialFunctionContainer">
+			<p className="specialFunction">AC</p>
+			<p className="specialFunction">+/-</p>
+			<p className="specialFunction">%</p>
 			</div>
 		)
 	}

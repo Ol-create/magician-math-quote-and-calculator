@@ -1,7 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-
 //Create digit input component
 class Digit extends React.Component{
 	constructor(props){
@@ -21,7 +18,7 @@ class Digit extends React.Component{
 			<p className='digit'>1</p>
 			<p className='digit'>2</p>
 			<p className='digit'>3</p></div>
-			<div class='zero-and-point'>
+			<div class='zeroAndPoint'>
 				<p id='zero'>0</p>
 				<p className='digit'>.</p>
 			</div>

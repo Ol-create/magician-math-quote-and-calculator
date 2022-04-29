@@ -1,5 +1,9 @@
-import Operation from "./operation";
-import SpecialFunction from "./specialFunction.JS";
+import React from 'react';
+import Display from './display.js';
+import SpecialFunction from './specialFunction.js';
+import Digit from './digit.js';
+import Operation from './operation.js';
+
 
 class App extends React.Component{
 	constructor(){
@@ -7,12 +11,14 @@ class App extends React.Component{
 	}
 	render(){
 		return(
-			<div>
+			<div className='parentContainer'>
 			<Display />
-			<div>
-			<div className=''>
-				<SpecialFunction />
+			<div id='funDigOper'>
+             
+			<div className='funDig'>
+			<SpecialFunction />
 				<Digit />
+
 			</div>
 			<Operation />
 			</div>
