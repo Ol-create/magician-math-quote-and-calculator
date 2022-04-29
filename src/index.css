@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+body {
+  background-color: rgb(243, 208, 142);
+}
+
 .display {
   display: flex;
   justify-content: end;
@@ -18,10 +22,12 @@
   padding-right: 10px;
   background-color: rgb(206, 200, 200);
   border: 2px solid rgb(128, 127, 127);
-
 }
 
-.digit, .specialFunction, .operation, #zero {
+.digit,
+.specialFunction,
+.operation,
+#zero {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,17 +37,18 @@
   border: 2px solid rgb(68, 67, 67);
 }
 
-.digits, #specialFunctionContainer {
+.digits,
+#specialFunctionContainer {
   display: flex;
 }
 
 .operation {
-  background-color: orange
+  background-color: orange;
 }
 
 .SpecialFunction {
-	background-color: rgb(155, 152, 152);
-	border: 2px solid rgb(68, 67, 67);
+  background-color: rgb(155, 152, 152);
+  border: 2px solid rgb(68, 67, 67);
 }
 
 .zeroAndPoint {
@@ -49,7 +56,7 @@
 }
 
 #zero {
-	width: 120px;
+  width: 120px;
 }
 
 #funDigOper {
