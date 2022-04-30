@@ -1,25 +1,40 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+## Math-Magicians
 
-# Magician Math Quote and Calculator
-### You will learn how to set up an environment and tools needed to develop a React application.
-
+> This is a calculator app which I have build using react.
 ## Built With
 
-- Technologies used: Babel, React, Webpack, linters, etc.
+- CSS
+- JavaScript
+- React
+- GitFlow
+- Linters
+- Webpack
 
-## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+Clone Repository using
+`git clone https://github.com/Ol-create/magician-math-quote-and-calculator`
 
-### Setup
-- Click the green `Code` button on the repo
-- In your local PC, open your terminal in the folder you would like to clone the project.
-- Clone the repo with the command: `git clone (https://github.com/Ol-create/Magician-math-quote-and-calculator.git)`; like so: `git clone https://github.com/Ol-create/Magician-math-quote-and-calculator.git
-- On the terminal, navigate into the directory like so: `cd Magician-math-quote-and-calculator`
 
-### Install
-- in visual studio code build with the command `npm run build`
-- and run the distribution with the command `npm start`
+OR using HTTPS
+
+`git clone https://github.com/Ol-create/magician-math-quote-and-calculator`
+
+move into project directory
+
+`cd math-magicians`
+
+Install Project dependancies using `NPM`
+
+`npm install`
+
+build with the command
+
+`npm run build`
+
+launch project locally with
+
+`npm start`
 
 ## Authors
 
@@ -33,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ol-create/Food-store-app/issues).
+Feel free to check the [issues page](https://github.com/Ol-create/magician-math-quote-and-calculator/issues).
 
 ## Show your support
 
