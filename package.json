@@ -15,9 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ol-create/Magician-math-quote-and-calculator/issues"
-  },
+  "bugs": {},
   "homepage": "https://github.com/Ol-create/Magician-math-quote-and-calculator#readme",
   "devDependencies": {
     "@babel/core": "^7.17.9",
@@ -42,6 +40,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   }
