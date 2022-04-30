@@ -1,0 +1,34 @@
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: repeat(6, 75px);
+	height: 450px;
+	width: 400px;
+  }
+
+  #root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+
+  #zero,
+  #one,
+  #two,
+  #three,
+  #four,
+  #five,
+  #six,
+  #seven,
+  #eight,
+  #nine,
+  #all-clear,
+  #positive-negative,
+  #percent,
+  #decimal {
+	background-color: lightgray;
+	border: 1px solid gray;
+	cursor: pointer;
+  }
