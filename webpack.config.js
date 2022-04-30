@@ -1,4 +1,5 @@
 /* eslint-disabled */
+eslint-disable-next-line import/no-extraneous-dependencies
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
 
 const path = require('path');
