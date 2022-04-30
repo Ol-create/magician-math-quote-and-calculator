@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Buttons from './buttons';
 import OutputScreen from './outputScreen';
 import calculate from '../logic/calculate';
 
