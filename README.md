@@ -13,12 +13,12 @@
 
 
 Clone Repository using
-`git clone git@github.com:Hadi111jafari/math-magicians`
+`git clone https://github.com/Ol-create/magician-math-quote-and-calculator`
 
 
 OR using HTTPS
 
-`git clone https://github.com/Hadi111jafari/math-magicians.git`
+`git clone https://github.com/Ol-create/magician-math-quote-and-calculator`
 
 move into project directory
 
@@ -48,7 +48,7 @@ launch project locally with
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ol-create/Food-store-app/issues).
+Feel free to check the [issues page](https://github.com/Ol-create/magician-math-quote-and-calculator/issues).
 
 ## Show your support
 
