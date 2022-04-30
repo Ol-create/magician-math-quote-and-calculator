@@ -12,3 +12,10 @@ class OutputScreen extends React.Component {
     return (<div id={this.name}>{this.label}</div>);
   }
 }
+
+export default OutputScreen;
+
+OutputScreen.propTypes = {
+  name: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+};
