@@ -1,16 +1,26 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-// eslint-disable-next-line import/no-extraneous-dependencies
 class OutputScreen extends React.Component {
-  constructor({ name, label }) {
-    super({ name, label });
-    this.name = name;
-    this.label = label;
+  constructor(props) {
+    super(props);
+    this.state = {};
   }
 
   render() {
-    return (<div id={this.name}>{this.label}</div>);
+    const {
+      name,
+      pre,
+      curr,
+      operand,
+    } = this.props;
+    return (
+      <div id={name}>
+        <span>{pre}</span>
+        <span>{operand}</span>
+        <span>{curr}</span>
+      </div>
+    );
   }
 }
 
@@ -18,5 +28,7 @@ export default OutputScreen;
 
 OutputScreen.propTypes = {
   name: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
+  pre: PropTypes.string.isRequired,
+  curr: PropTypes.string.isRequired,
+  operand: PropTypes.string.isRequired,
 };
