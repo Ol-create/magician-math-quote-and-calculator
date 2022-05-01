@@ -9,16 +9,15 @@
 - React
 - GitFlow
 - Linters
-- Webpack
-
-
+- Webpack 
 Clone Repository using
-`git clone git@github.com:Hadi111jafari/math-magicians`
+`git clone git@github.https://github.com/Ol-create/magician-math-quote-and-calculator/tree/refactor-with-hooks
+`
 
 
 OR using HTTPS
 
-`git clone https://github.com/Hadi111jafari/math-magicians.git`
+`git clone Ol-create/magician-math-quote-and-calculator`
 
 move into project directory
 
