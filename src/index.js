@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Calculator from './components/calculator';
 import './App.css';
 import './index.css';
 
