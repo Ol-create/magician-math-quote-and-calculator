@@ -10,13 +10,17 @@
   }
 
   .links {
-	list-style-type: none;
+	list-style: none;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	align-items: baseline;
 	justify-items: baseline;
 	gap: 15px;
+  }
+
+  .links li {
+	list-style: none;
   }
 
   .link {

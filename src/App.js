@@ -1,4 +1,3 @@
-import './App.scss';
 import {
   BrowserRouter as Router,
   Switch,
@@ -6,7 +5,7 @@ import {
 } from 'react-router-dom';
 import React from 'react';
 
-import Calculator from './pages/Calculator';
+import Calculator from './components/calculator';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Quote from './pages/Quote';

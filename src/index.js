@@ -6,8 +6,8 @@ import './index.css';
 
 // Render the Calculator to the Web page.
 ReactDOM.render(
-	<React.StrictMode>
-	  <App />
-	</React.StrictMode>,
-	document.getElementById('root'),
-  );
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
