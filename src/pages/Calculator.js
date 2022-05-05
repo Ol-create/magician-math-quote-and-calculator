@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import calculate from '../logic/calculate';
-import Buttons from '../components/Buttons';
-import CalcScreen from '../components/CalcScreen';
+import calculate from '../logic/calculate.js';
+import Buttons from '../components/Buttons.js';
+import CalcScreen from '../components/CalcScreen.js';
 
 const Calculator = () => {
   const [obj, setObj] = useState({});
