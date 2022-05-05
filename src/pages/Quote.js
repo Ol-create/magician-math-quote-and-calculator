@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Quote.css';
+import styles from './Quote.module.scss';
 
 const Quote = () => (
   <div className={styles.quoteContainer}>

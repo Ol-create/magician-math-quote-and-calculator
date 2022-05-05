@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.scss';
 import App from './App';
-import './App.css';
-import './index.css';
 
-// Render the Calculator to the Web page.
 ReactDOM.render(
   <React.StrictMode>
     <App />

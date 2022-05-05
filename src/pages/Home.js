@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Home.css';
+import styles from './Home.module.scss';
 
 const Home = () => (
-  <div className={home}>
+  <div className={styles.home}>
     <h2>Welcome to our Homepage</h2>
     <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.

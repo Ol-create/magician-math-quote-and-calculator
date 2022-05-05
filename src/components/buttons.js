@@ -1,32 +1,28 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+import PropTypes from 'prop-types';
 
-class Buttons extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-    this.btnInteract = this.btnInteract.bind(this);
+const setClass = (button) => {
+  if (button === '÷' || button === 'x' || button === '-' || button === '+' || button === '=') {
+    return 'calc-button orange-button';
   }
 
-  btnInteract() {
-    const { btnInteract, label } = this.props;
-    btnInteract(label);
+  if (button === '0') {
+    return 'calc-button double-sized';
   }
 
-  render() {
-    const { btnName, label } = this.props;
-    return (
-      <button type="button" id={btnName} onClick={this.btnInteract}>
-        {label}
-      </button>
-    );
-  }
-}
+  return 'calc-button';
+};
 
-export default Buttons;
+const buttons = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+
+const Buttons = ({ action }) => (
+  <div className="buttons">
+    {buttons.map((button) => (<button key={button} className={setClass(button)} onClick={action} type="button">{button}</button>))}
+  </div>
+);
 
 Buttons.propTypes = {
-  btnName: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  btnInteract: PropTypes.func.isRequired,
+  action: PropTypes.func.isRequired,
 };
+
+export default Buttons;
