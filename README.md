@@ -13,7 +13,8 @@
 Clone Repository using
 `git clone git@github.https://github.com/Ol-create/magician-math-quote-and-calculator/tree/refactor-with-hooks
 `
-Live on Netlify: [click link](https://regal-treacle-eb85a3.netlify.app/)
+
+- Live on Netlify: [click link](https://regal-treacle-eb85a3.netlify.app/)
 
 OR using HTTPS
 
