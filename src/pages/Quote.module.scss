@@ -1,0 +1,18 @@
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  align-self: flex-end;
+  margin-top: -0.1rem;
+}
